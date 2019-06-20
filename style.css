@@ -16,6 +16,7 @@ body {
 
 .paragraph {
     color: #37025a;
+    padding: 16px;
 }
 
 .photo {
@@ -26,11 +27,18 @@ body {
 }
 
 .center {
-    margin: auto;
-    width: 50%;
-    padding: 10px;
+    
 }
 
 .Link {
     color: #62929E;
+}
+
+.main {
+    width: 100%;
+    max-width: 700px;
+    margin: 32px auto;
+}
+.about {
+    
 }
