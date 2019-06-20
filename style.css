@@ -26,9 +26,7 @@ body {
     margin: 30px 30px 30px 0px;
 }
 
-.center {
-    
-}
+.center {}
 
 .Link {
     color: #62929E;
@@ -38,7 +36,38 @@ body {
     width: 100%;
     max-width: 700px;
     margin: 32px auto;
+    padding-top: 50px;
 }
+
 .about {
-    
+    position: relative;
+}
+
+.box {
+    height: 100px;
+    width: 100px;
+    background: yellowgreen;
+    padding: 10px;
+    border: 10px solid red;
+    box-sizing: border-box;
+    position: sticky;
+    top: 0;
+}
+
+.top {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    color: #62929E;
+    text-decoration: none;
+}
+
+.navigation {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+    padding: 16px;
+    background: #fff;
 }
