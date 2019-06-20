@@ -3,12 +3,15 @@ body {
 }
 
 .mainHeader {
-    color: tomato;
-    font-size: 46px;
+    color: #5D576B;
 }
 
 .sectionHeader {
     color: #1460AA;
+}
+
+.thirdHeader {
+    color: #5D576B;
 }
 
 .paragraph {
@@ -26,4 +29,8 @@ body {
     margin: auto;
     width: 50%;
     padding: 10px;
+}
+
+.Link {
+    color: #62929E;
 }
