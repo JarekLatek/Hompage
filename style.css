@@ -1,3 +1,11 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
 body {
     background: #f1f1f1;
 }
@@ -17,7 +25,7 @@ body {
     color: #5D576B;
 }
 
-.navigation {
+.site-header {
     position: fixed;
     width: 100%;
     top: 0;
@@ -25,6 +33,17 @@ body {
     box-sizing: border-box;
     padding: 16px;
     background: #fff;
+}
+
+.navigation {}
+
+.navigation__list {
+    list-style: none;
+    padding: 0;
+}
+
+.navigation__item {
+    display: inline;
 }
 
 .navigation__link {
