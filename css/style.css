@@ -34,19 +34,19 @@ body {
     background: #fff;
 }
 
-.navigation {
-    display: flex;
-    justify-content: space-around;
-}
+.navigation {}
 
 .navigation__list {
     list-style: none;
     padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .navigation__item {
-    display: inline;
-    padding: 32px;
+    display: block;
+    margin: 0 32px;
 }
 
 .navigation__link {
@@ -103,17 +103,6 @@ body {
     margin: 30px 30px 30px 0px;
 }
 
-.box {
-    height: 100px;
-    width: 100px;
-    background: yellowgreen;
-    padding: 10px;
-    border: 10px solid red;
-    box-sizing: border-box;
-    position: sticky;
-    top: 0;
-}
-
 .top {
     position: fixed;
     bottom: 10px;
@@ -124,7 +113,8 @@ body {
 
 .site__footer {
     display: flex;
-    justify-content: space-around;
+    align-items: center;
+    justify-content: center;
     width: 100%;
     bottom: 0;
     left: 0;
