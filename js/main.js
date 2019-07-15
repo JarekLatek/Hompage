@@ -6,11 +6,13 @@ console.log(`Nazywamm się ${name} i mam ${age} lat`);
 
 console.log('Cieszę się, że podglądasz moją pracę, ponieważ to znaczy, że się rozwijam. ;)');
 
-const main__header = document.querySelector('.main__header--js');
+const button = document.querySelector('.header__button--js');
+console.log(button);
 
-console.log(main__header.innerHTML);
-
-main__header.innerHTML = 'Pozdro JS';
+button.addEventListener('click', (e) => {
+    const header = document.querySelector('.header__title--js');
+    header.innerHTML = 'Klik klik';
+});
 
 const paragraphs = document.querySelectorAll('p');
 
