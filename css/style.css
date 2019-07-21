@@ -7,7 +7,7 @@ html {
 }
 
 body {
-    background: #f1f1f1;
+    background: url(../img/bg.png);
 }
 
 .main {
@@ -18,11 +18,11 @@ body {
 }
 
 .main__link {
-    color: #62929E;
+    color: #ffffff;
 }
 
 .header__title {
-    color: #5D576B;
+    color: #ffffff;
 }
 
 .site-header {
@@ -31,7 +31,7 @@ body {
     top: 0;
     left: 0;
     padding: 16px;
-    background: #fff;
+    background: rgba(225, 78, 105, 85%);
 }
 
 .navigation {}
@@ -50,7 +50,8 @@ body {
 }
 
 .navigation__link {
-    color: #62929E;
+    color: #ffffff;
+    text-decoration: none;
 }
 
 .about {
@@ -58,41 +59,41 @@ body {
 }
 
 .about__header {
-    color: #1460AA;
+    color: #ffffff;
 }
 
 .about__paragraph {
-    color: #37025a;
+    color: #ffffff;
     padding: 16px;
 }
 
 .about__link {
-    color: #62929E;
+    color: #ffffff;
 }
 
 .realisation {}
 
 .realisation__header {
-    color: #1460AA;
+    color: #ffffff;
 }
 
 .realisation__paragraph {
-    color: #37025a;
+    color: #ffffff;
     padding: 16px;
 }
 
 .realisation__link {
-    color: #62929E;
+    color: #ffffff;
 }
 
 .article {}
 
 .article__header {
-    color: #1460AA;
+    color: #ffffff;
 }
 
 .article__paragraph {
-    color: #37025a;
+    color: #ffffff;
     padding: 16px;
 }
 
@@ -107,7 +108,7 @@ body {
     position: fixed;
     bottom: 10px;
     right: 10px;
-    color: #62929E;
+    color: #ffffff;
     text-decoration: none;
 }
 
@@ -119,5 +120,6 @@ body {
     bottom: 0;
     left: 0;
     padding: 16px;
-    background: rgb(189, 188, 188);
+    background: rgba(225, 78, 105, 85%);
+    color: #ffffff;
 }
