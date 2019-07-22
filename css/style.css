@@ -7,34 +7,49 @@ html {
 }
 
 body {
+    display: grid;
+    grid-template-areas: "header header header header" "logo txt txt txt" "box box box button" "footer footer footer footer";
+    grid-template-columns: 450px 1fr 100px 100px;
+    grid-column-gap: 16px;
+    grid-row-gap: 16px;
     background: url(../img/bg.png);
 }
 
 .main {
-    width: 100%;
+    /*width: 100%;
     max-width: 700px;
     margin: 32px auto;
-    padding-top: 50px;
+    padding-top: 50px;*/
 }
 
 .main__link {
     color: #ffffff;
 }
+.header {
+    grid-area: header;
 
+}
 .header__title {
     color: #ffffff;
 }
 
+.logo {
+    grid-area: logo;
+}
+
 .site-header {
+  
     position: fixed;
-    width: 100%;
+    /*width: 100%;
     top: 0;
     left: 0;
-    padding: 16px;
+    padding: 16px;*/
     background: rgba(225, 78, 105, 85%);
 }
 
-.navigation {}
+.navigation {
+    
+}
 
 .navigation__list {
     list-style: none;
@@ -54,9 +69,7 @@ body {
     text-decoration: none;
 }
 
-.about {
-    position: relative;
-}
+.about {}
 
 .about__header {
     color: #ffffff;
@@ -86,7 +99,9 @@ body {
     color: #ffffff;
 }
 
-.article {}
+.article {
+    grid-area: box;
+}
 
 .article__header {
     color: #ffffff;
@@ -113,6 +128,7 @@ body {
 }
 
 .site__footer {
+    grid-area: footer;
     display: flex;
     align-items: center;
     justify-content: center;
