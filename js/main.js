@@ -6,7 +6,7 @@ console.log(`Nazywamm się ${name} i mam ${age} lat`);
 
 console.log('Cieszę się, że podglądasz moją pracę, ponieważ to znaczy, że się rozwijam. ;)');
 
-const button = document.querySelector('.header__button--js');
+/*const button = document.querySelector('.header__button--js');
 console.log(button);
 
 button.addEventListener('click', (e) => {
@@ -29,4 +29,11 @@ calculate(1);
 
 console.log(calculate(2));
 const myCalculation = calculate(4);
-console.log(myCalculation);
+console.log(myCalculation);*/
+
+const navigationSwitcher = document.querySelector('.navigation__switcher--js');
+
+navigationSwitcher.addEventListener('click', (e) => {
+const navigationList = document.querySelector('.navigation__list--js');
+navigationList.classList.toggle('navigation__list--visible');
+});
